@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  img{
+    background-size: cover;
+  }
+  body {
+    background-color: rgb(65, 243, 243);
+  }
+  
+  .card-title {
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 30px;
+  }
+  
+  .cards {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    text-align: center;
+    width: 15%;
+    background-color: #ececec;
+    margin-left: 50px;
+    /* padding: 1rem; */
+    box-shadow: 10px 10px 12px #bcbcbb;
+    background-size: cover;
+    margin-bottom: 20px;
+  }
+  
+  .img {
+    margin-top: 10px;
+    display: flex;
+    height: 10rem;
+    width: 170px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(204, 204, 204);
+    padding: 5px;
+    transition: 1s;
+  }
+  
+  .img:hover {
+    box-shadow: 5px 5px 15px rgb(140, 137, 137);
+  }
+  
+  .card img {
+    width: 150px;
+    box-shadow: 2px 2px solid red;
+  }
+  
+  
+  .btn span{
+    display: flex;
+    width: 25%;
+    padding: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    background-color: red;
+    text-align: center;
+    border: none;
+    color: #fff;
+  }
+  
+  .olex {
+    text-align: center;
+    width: 100%;
+    background-color: rgb(84, 194, 234);
+    padding: 1rem;
+    color: #fff;
+    transition: all .5s;
+  }
+  span{
+    padding: 0 10px;
+    text-align: center;
+  }
+  
+  .olex:hover {
+    background-color: lightseagreen;
+    box-shadow: 3px 3px 14px blue;
+    color: white;
+  }
+  .one {
+    background-color: rgb(0, 128, 255);
+  }
+  
+  .second {
+    background-color: rgb(136, 4, 92);
+  }
+  
+  .third {
+    background-color: rgb(180, 45, 68);
+  }
+  
+  .fourth {
+    background-color: yellowgreen;
+  }
+  
+  .fifth {
+    background-color: blue;
+  }
+  
+  .sixth {
+    background-color: rgb(136, 4, 92);
+  }
+  
+  .seventh {
+    background-color: rgb(31, 91, 243);
+  }
+  
+  .eihth {
+    background-color: yellowgreen;
+  }
+  
+  .nineth {
+    background-color: green;
+  }
+  @media screen and (max-width: 1226px) {
+    .card{
+      width: 40%;
+      margin-bottom: 20px;
+    }
+    .btn{
+      text-align: center;
+      width: 100%;
+    }
+  }
+  @media  screen and (max-width: 530px) {
+    .card{
+      width: 100%;
+      margin-right: 30px;
+    }
+    .btn{
+      margin-left: 100%;
+      text-align: center;
+    }
+    span{
+      padding: 0 10px;
+    }
+  }
+  @media screen and (max-width: 345px) {
+    .btn{
+      width: 100%;
+      text-align: center;
+    }
+  }
